@@ -324,9 +324,12 @@ var USselectedMetadata = USselectedMetadata || {};
         try{
             var oldResult = sforce.connection.query("Select Id, Name, "+app.conf.ns+"Metadata_Types_in_Selection__c"+ " FROM " +app.conf.ns+"User_Story__c WHERE Id='"+app.conf.data.userStoryId+"' limit 1");
             usRecord = oldResult.getArray("records")[0];
-            var setOfUserStoryTypes = (usRecord[app.conf.ns+'Metadata_Types_in_Selection__c']||'').split(/\s*;\s*/g);
+            var t = usRecord[app.conf.ns+'Metadata_Types_in_Selection__c'];
+            var setOfUserStoryTypes = t? t.split(/\s*;\s*/g) : [];
             setOfUserStoryTypes.sort();
+            
             var areThereDifferences= compareArrays(setofSelectedType, setOfUserStoryTypes);
+            
             console.log('userStorySelectedMetadata:::', areThereDifferences, setofSelectedType, setOfUserStoryTypes);
 
             if( !areThereDifferences ) {

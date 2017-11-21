@@ -757,21 +757,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Credit_Card__c.Card_Holder_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Credit_Card__c.Credit_Card_Number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Credit_Card__c.Expiration__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event.Description</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1414,11 +1399,6 @@
         <editable>false</editable>
         <field>copado__Build_Task__c.copado__Type__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__Compliance_Finding__c.Matched_Metadata__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2107,12 +2087,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>copado__Environment__c.copado__Compliance_Scan_Events__c</field>
+        <field>copado__Environment__c.copado__Compliance_Rule_Group__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>copado__Environment__c.copado__Compliance_Setting__c</field>
+        <field>copado__Environment__c.copado__Compliance_Scan_Events__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

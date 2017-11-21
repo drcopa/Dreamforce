@@ -56,6 +56,30 @@
     <fields>
         <label><!-- Compliance Status --></label>
         <name>copado__Compliance_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed - Findings detected</masterLabel>
+            <translation><!-- Completed - Findings detected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - No Findings</masterLabel>
+            <translation><!-- Completed - No Findings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - Resolved</masterLabel>
+            <translation><!-- Completed - Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Investigation</masterLabel>
+            <translation><!-- Under Investigation --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Compliance --></label>

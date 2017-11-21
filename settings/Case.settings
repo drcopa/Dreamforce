@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>dr@copa.do.dreamforce</defaultCaseOwner>
+    <defaultCaseOwner>dr@copa.do.dreamforceb</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>dr@copa.do.dreamforce</defaultCaseUser>
+    <defaultCaseUser>dr@copa.do.dreamforceb</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>

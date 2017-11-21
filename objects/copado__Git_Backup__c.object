@@ -156,11 +156,6 @@
     <fieldSets>
         <fullName>copado__Copado_Header_Fields</fullName>
         <availableFields>
-            <field>copado__Branch__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
             <field>copado__Compliance_Status__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -177,16 +172,6 @@
         </availableFields>
         <availableFields>
             <field>copado__Frequency__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>copado__Git_Repository__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>copado__Git_Snapshot_Permissions__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
@@ -236,11 +221,6 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>copado__Org__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
             <field>SystemModstamp</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -251,6 +231,26 @@
             <isRequired>false</isRequired>
         </availableFields>
         <description>In Lightning Experience Page Headers (Like Compact Layouts)</description>
+        <displayedFields>
+            <field>copado__Git_Repository__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Org__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Branch__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Git_Snapshot_Permissions__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
         <label>Copado Header Fields</label>
     </fieldSets>
     <fieldSets>
